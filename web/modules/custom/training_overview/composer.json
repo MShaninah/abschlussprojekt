@@ -1,0 +1,13 @@
+{
+    "name": "training_overview",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/training_overview",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/training_overview",
+        "source": "http://cgit.drupalcode.org/training_overview",
+    },
+}

@@ -1,0 +1,31 @@
+add training overview entities:
+  title: 'Create new Training overview entities'
+
+administer training overview entities:
+  title: 'Administer Training overview entities'
+  description: 'Allow to access the administration form to configure Training overview entities.'
+  restrict access: true
+
+delete training overview entities:
+  title: 'Delete Training overview entities'
+
+edit training overview entities:
+  title: 'Edit Training overview entities'
+
+view published training overview entities:
+  title: 'View published Training overview entities'
+
+view unpublished training overview entities:
+  title: 'View unpublished Training overview entities'
+
+view all training overview revisions:
+  title: 'View all Training overview revisions'
+
+revert all training overview revisions:
+  title: 'Revert all Training overview revisions'
+  description: 'Role requires permission <em>view Training overview revisions</em> and <em>edit rights</em> for training overview entities in question or <em>administer training overview entities</em>.'
+
+delete all training overview revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Training overview revisions</em> and <em>delete rights</em> for training overview entities in question or <em>administer training overview entities</em>.'
+
