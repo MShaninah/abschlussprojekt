@@ -1,0 +1,5 @@
+employee_overview.add_form:
+  route_name: entity.employee_overview.add_form
+  title: 'Add employee overview'
+  appears_on:
+    - entity.employee_overview.collection

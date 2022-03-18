@@ -1,0 +1,12 @@
+uuid: feb3aafd-d429-456e-adab-06d68150e94d
+langcode: de
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: flXhTcp55yLcyy7ZLOhPGKGZobZQJdkAFVWV3LseiuI
+id: user.register
+label: Registrieren
+targetEntityType: user
+cache: true

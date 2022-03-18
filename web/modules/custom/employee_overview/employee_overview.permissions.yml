@@ -1,0 +1,13 @@
+administer employee overview:
+  title: 'Administer employee overview settings'
+  restrict access: true
+access employee overview overview:
+  title: 'Access employee overview overview page'
+delete employee overview:
+  title: Delete employee overview
+create employee overview:
+  title: Create employee overview
+view employee overview:
+  title: View employee overview
+edit employee overview:
+  title: Edit employee overview

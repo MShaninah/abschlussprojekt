@@ -1,0 +1,10 @@
+uuid: 8e0fb27e-4744-47e8-ac91-47152506fd9e
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AlzeyytA8InBgxIG9H2UDJYs3CG98Zj6yRsDKmlbZwA
+id: short
+label: 'Standard-Datum kurz'
+locked: false
+pattern: 'd.m.Y - H:i'

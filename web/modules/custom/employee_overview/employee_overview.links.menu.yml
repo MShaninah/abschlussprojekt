@@ -1,0 +1,10 @@
+entity.employee_overview.settings:
+  title: Employee Overview
+  description: Configure an Employee Overview entity type
+  route_name:  entity.employee_overview.settings
+  parent: system.admin_structure
+entity.employee_overview.collection:
+  title: Employee Overviews
+  description: List of employee overviews
+  route_name: entity.employee_overview.collection
+  parent: system.admin_content

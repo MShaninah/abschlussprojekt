@@ -1,0 +1,6 @@
+services:
+  employee_overview.event_subscriber:
+    class: Drupal\employee_overview\EventSubscriber\EmployeeOverviewSubscriber
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }

@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: de
+uuid: cd67db16-c55c-438a-8867-2131d30520f1
+name: 'Gesundheit Management'
+mail: shaninah@hob-by-horse.de
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: de

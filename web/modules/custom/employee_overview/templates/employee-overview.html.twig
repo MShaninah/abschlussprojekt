@@ -1,0 +1,21 @@
+{#
+/**
+ * @file
+ * Default theme implementation to present an employee overview entity.
+ *
+ * This template is used when viewing a registered employee overview's page,
+ * e.g., /admin/content/employee-overview)/123. 123 being the employee overview's ID.
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ *   print a subset such as 'content.title'.
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_employee_overview()
+ */
+#}
+<article{{ attributes }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</article>

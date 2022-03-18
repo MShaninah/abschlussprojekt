@@ -1,0 +1,22 @@
+entity.employee_overview.settings:
+  title: Settings
+  route_name: entity.employee_overview.settings
+  base_route: entity.employee_overview.settings
+entity.employee_overview.view:
+  title: View
+  route_name: entity.employee_overview.canonical
+  base_route: entity.employee_overview.canonical
+entity.employee_overview.edit_form:
+  title: Edit
+  route_name: entity.employee_overview.edit_form
+  base_route: entity.employee_overview.canonical
+entity.employee_overview.delete_form:
+  title: Delete
+  route_name: entity.employee_overview.delete_form
+  base_route: entity.employee_overview.canonical
+  weight: 10
+entity.employee_overview.collection:
+  title: Employee Overview
+  route_name: entity.employee_overview.collection
+  base_route: system.admin_content
+  weight: 10

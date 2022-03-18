@@ -1,0 +1,13 @@
+uuid: 2bab1df1-3933-4daa-b041-7efcaeff3b7b
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Persönliches Kontaktformular'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Ihre Nachricht wurde gesendet.'
+redirect: ''

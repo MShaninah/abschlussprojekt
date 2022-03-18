@@ -1,0 +1,7 @@
+entity.employee_overview.settings:
+  path: 'admin/structure/employee-overview'
+  defaults:
+    _form: '\Drupal\employee_overview\Form\EmployeeOverviewSettingsForm'
+    _title: 'Employee Overview'
+  requirements:
+    _permission: 'administer employee overview'
