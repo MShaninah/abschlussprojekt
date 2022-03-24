@@ -6,6 +6,7 @@
  */
 
 use Drupal\Core\Render\Element;
+use Drupal\employee_overview\Event\EmployeeOverviewEvent;
 
 /**
  * Implements hook_theme().
@@ -33,4 +34,12 @@ function template_preprocess_employee_overview(array &$variables) {
   foreach (Element::children($variables['elements']) as $key) {
     $variables['content'][$key] = $variables['elements'][$key];
   }
+}
+
+function employee_overview_user_login($account) {
+  // Instantiate our event.
+  $event = new EmployeeOverviewEvent($account);
+
+  $event_dispatcher = \Drupal::service('event_dispatcher');
+  $event_dispatcher->dispatch(EmployeeOverviewEvent::EVENT_NAME, $event);
 }

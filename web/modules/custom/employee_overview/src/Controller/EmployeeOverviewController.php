@@ -23,4 +23,10 @@ class EmployeeOverviewController extends ControllerBase {
     return $build;
   }
 
+   public function currentUser() {
+    $currentUserName = \Drupal::state()->get('User');
+    $response_array = ['user_name' => $currentUserName];
+    return new JsonResponse($response_array, 200, ['content-type": "application/hal+json'] );
+  }
+
 }

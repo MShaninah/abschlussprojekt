@@ -5,3 +5,12 @@ entity.employee_overview.settings:
     _title: 'Employee Overview'
   requirements:
     _permission: 'administer employee overview'
+entity.employee_overview.current_user:
+  path: '/currentuser'
+  defaults:
+    _title: 'Get Current User'
+    _controller: Drupal\employee_overview\Controller\EmployeeOverviewController::currentUser
+  requirements:
+    _permission: 'access overview'
+  options:
+    _auth: ['basic_auth']

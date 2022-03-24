@@ -1,6 +1,6 @@
 services:
   employee_overview.event_subscriber:
     class: Drupal\employee_overview\EventSubscriber\EmployeeOverviewSubscriber
-    arguments: ['@messenger']
+    arguments: ['@messenger', '@date.formatter']
     tags:
       - { name: event_subscriber }
