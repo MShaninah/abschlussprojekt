@@ -1,0 +1,20 @@
+uuid: f9ac4e8a-ed01-41db-8c0b-e0c085192278
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.employee_overview.field_username
+  module:
+    - employee_overview
+id: employee_overview.employee_overview.field_username
+field_name: field_username
+entity_type: employee_overview
+bundle: employee_overview
+label: Username
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

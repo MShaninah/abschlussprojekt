@@ -1,0 +1,21 @@
+uuid: 9d8338fd-1e61-4f7d-8138-a2b7307739eb
+langcode: de
+status: true
+dependencies:
+  module:
+    - employee_overview
+id: employee_overview.field_username
+field_name: field_username
+entity_type: employee_overview
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -37,7 +37,7 @@ function template_preprocess_employee_overview(array &$variables) {
 }
 
 function employee_overview_user_login($account) {
-  // Instantiate our event.
+  // Instantiate the User event.
   $event = new EmployeeOverviewEvent($account);
 
   $event_dispatcher = \Drupal::service('event_dispatcher');

@@ -9,6 +9,8 @@ dependencies:
   module:
     - comment
     - contextual
+    - employee_overview
+    - field_ui
     - file
     - node
     - path
@@ -26,23 +28,39 @@ permissions:
   - 'access administration pages'
   - 'access content overview'
   - 'access contextual links'
+  - 'access employee overview overview'
   - 'access files overview'
+  - 'access overview'
   - 'access toolbar'
   - 'access tour'
+  - 'administer employee overview'
+  - 'administer employee_overview display'
+  - 'administer employee_overview fields'
+  - 'administer employee_overview form display'
+  - 'administer menu'
   - 'administer url aliases'
+  - 'administer user display'
   - 'create article content'
+  - 'create employee overview'
   - 'create page content'
   - 'create terms in tags'
   - 'create url aliases'
+  - 'delete any article content'
+  - 'delete any page content'
   - 'delete article revisions'
+  - 'delete employee overview'
   - 'delete own article content'
   - 'delete own page content'
   - 'delete page revisions'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit employee overview'
   - 'edit own article content'
   - 'edit own comments'
   - 'edit own page content'
   - 'edit terms in tags'
   - 'revert all revisions'
   - 'view all revisions'
+  - 'view employee overview'
   - 'view own unpublished content'
   - 'view the administration theme'

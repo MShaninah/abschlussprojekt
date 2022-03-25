@@ -1,15 +1,15 @@
-uuid: 7703dc10-855b-4787-a3ec-386fbc990d8b
+uuid: 2074d03e-f9e0-49f2-86db-7041b1ec8cd0
 langcode: de
 status: true
 dependencies:
   theme:
-    - seven
+    - olivero
 _core:
-  default_config_hash: gv5JXTvQXjlMY6PXrfxzcLMjMg4074WiEQCy7ZSMvK4
-id: seven_local_actions
-theme: seven
-region: content
-weight: -10
+  default_config_hash: sDmKoL9ejxB_fvD_qmgOHa8HN3X9AIsbud2xK8brMiI
+id: primary_admin_actions
+theme: olivero
+region: highlighted
+weight: -5
 provider: null
 plugin: local_actions_block
 settings:

@@ -1,0 +1,20 @@
+uuid: e792693d-ac94-4df6-baf5-47bb0e4607da
+langcode: de
+status: true
+dependencies:
+  module:
+    - employee_overview
+id: employee_overview.field_repetition
+field_name: field_repetition
+entity_type: employee_overview
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

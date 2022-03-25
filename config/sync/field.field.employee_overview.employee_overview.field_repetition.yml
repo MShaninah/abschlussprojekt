@@ -1,0 +1,24 @@
+uuid: 36b545c6-5547-414b-a7a5-53c322035aaf
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.employee_overview.field_repetition
+  module:
+    - employee_overview
+id: employee_overview.employee_overview.field_repetition
+field_name: field_repetition
+entity_type: employee_overview
+bundle: employee_overview
+label: repetition
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

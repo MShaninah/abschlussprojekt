@@ -1,0 +1,55 @@
+uuid: 2bd99668-97b3-4d4a-837e-7ba3d6034672
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.employee_overview.employee_overview.field_repetition
+    - field.field.employee_overview.employee_overview.field_username
+  module:
+    - employee_overview
+    - text
+id: employee_overview.employee_overview.default
+targetEntityType: employee_overview
+bundle: employee_overview
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  description:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_repetition:
+    type: number
+    weight: 4
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_username:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  status: true
+  uid: true
