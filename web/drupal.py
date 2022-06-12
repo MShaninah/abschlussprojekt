@@ -1,9 +1,7 @@
 import requests
-from requests.auth import HTTPBasicAuth
 
 
 class DrupalUser:
-
     # API Access Data
     _user = 'mo'
     _password = 'bPK5hB7kukW2kPs'
@@ -15,8 +13,8 @@ class DrupalUser:
     """
         call Drupal 9 API to get the logged in user.
     """
-    def get_drupal_user(self):
 
+    def get_drupal_user(self):
         endpoint = 'http://ap.local/currentuser'
         request = requests.post(endpoint, headers=self._headers, auth=(self._user, self._password))
         return request.json()['user_name']
@@ -24,8 +22,8 @@ class DrupalUser:
     """
     call Drupal 9 API to create new entity.
     """
-    def write_entity(self, count):
 
+    def write_entity(self, arm_count, leg_count):
         drupal_user = self.get_drupal_user()
         endpoint = 'http://ap.local/jsonapi/employee_overview'
         payload = {
@@ -34,10 +32,11 @@ class DrupalUser:
                 "type": "employee_overview--employee_overview",
                 "attributes": {
                     "title": "test entity",
-                    "description": "hello from python",
                     "field_username": drupal_user,
-                    "field_repetition": count,
+                    "field_squat_repetition": leg_count,
+                    "field_biceps_repetition": arm_count,
                 }
             }
         }
-        requests.post(endpoint, headers=self._headers, auth=(self._user, self._password), json=payload)
+        request = requests.post(endpoint, headers=self._headers, auth=(self._user, self._password), json=payload)
+        return request.status_code
