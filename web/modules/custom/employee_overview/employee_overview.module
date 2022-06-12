@@ -43,3 +43,16 @@ function employee_overview_user_login($account) {
   $event_dispatcher = \Drupal::service('event_dispatcher');
   $event_dispatcher->dispatch(EmployeeOverviewEvent::EVENT_NAME, $event);
 }
+
+
+/**
+ * Implements hook_theme().
+ */
+function olivero_theme($existing, $type, $theme, $path): array
+{
+  return [
+    'exercise_block' => [
+      'template' => 'employee-overview',
+    ],
+  ];
+}
