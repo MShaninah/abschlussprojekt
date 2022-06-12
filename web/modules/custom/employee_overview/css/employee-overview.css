@@ -1,0 +1,7 @@
+.view-content .views-row .contextual-region {
+  display: flex;
+  justify-content: space-between;
+}
+body{
+  background: red;
+}
