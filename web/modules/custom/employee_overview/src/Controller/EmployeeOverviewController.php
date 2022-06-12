@@ -10,19 +10,6 @@ use Symfony\Component\HttpFoundation\JsonResponse;
  */
 class EmployeeOverviewController extends ControllerBase {
 
-  /**
-   * Builds the response.
-   */
-  public function build() {
-
-    $build['content'] = [
-      '#type' => 'item',
-      '#markup' => $this->t('It works!'),
-    ];
-
-    return $build;
-  }
-
    public function currentUser() {
     $currentUserName = \Drupal::state()->get('User');
     $response_array = ['user_name' => $currentUserName];
