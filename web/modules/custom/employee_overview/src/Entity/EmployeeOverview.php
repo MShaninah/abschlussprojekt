@@ -157,7 +157,6 @@ class EmployeeOverview extends RevisionableContentEntityBase implements Employee
       ->setRevisionable(TRUE)
       ->setLabel(t('Title'))
       ->setDescription(t('The title of the employee overview entity.'))
-      ->setRequired(TRUE)
       ->setSetting('max_length', 255)
       ->setDisplayOptions('form', [
         'type' => 'string_textfield',
