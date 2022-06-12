@@ -1,4 +1,4 @@
-uuid: a4da3939-eec1-4a5b-9437-171cd55c2d6b
+uuid: dbc072ab-17b4-4c59-b7eb-633239ba31a1
 langcode: de
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: Website-Feedback
 recipients:
-  - shaninah@hob-by-horse.de
+  - shaninah.mohammad@gmail.com
 reply: ''
 weight: 0
 message: 'Ihre Nachricht wurde gesendet.'

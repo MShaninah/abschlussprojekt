@@ -10,5 +10,5 @@ fetch:
   timeout: 30
 notification:
   emails:
-    - shaninah@hob-by-horse.de
+    - shaninah.mohammad@gmail.com
   threshold: all

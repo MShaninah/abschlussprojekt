@@ -4,6 +4,7 @@
 /testdata/
 /web/core/
 /web/modules/contrib/
+/web/modules/custom/*/node_modules
 /web/profiles/contrib/
 /web/themes/contrib/
 /web/libraries/

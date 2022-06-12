@@ -1,4 +1,4 @@
-uuid: 21876660-189b-431b-9e35-00b9938a3c8c
+uuid: c333d9b7-690f-4177-b00a-8b02e85a3416
 langcode: de
 status: true
 dependencies:
@@ -89,11 +89,5 @@ resourceFields:
     disabled: false
     fieldName: revision_default
     publicName: revision_default
-    enhancer:
-      id: ''
-  field_user_id:
-    disabled: false
-    fieldName: field_user_id
-    publicName: field_user_id
     enhancer:
       id: ''

@@ -1,4 +1,4 @@
-uuid: 2bd99668-97b3-4d4a-837e-7ba3d6034672
+uuid: 6368bf44-be8b-449e-94f2-b73413790b0d
 langcode: de
 status: true
 dependencies:
@@ -15,13 +15,13 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 3
+    weight: 20
     region: content
     settings: {  }
     third_party_settings: {  }
   description:
     type: text_textarea
-    weight: 2
+    weight: 10
     region: content
     settings:
       rows: 5
@@ -29,27 +29,42 @@ content:
     third_party_settings: {  }
   field_repetition:
     type: number
-    weight: 4
+    weight: 27
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_username:
     type: string_textfield
-    weight: 1
+    weight: 26
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  title:
-    type: string_textfield
+  status:
+    type: boolean_checkbox
     weight: 0
     region: content
     settings:
+      display_label: false
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden:
-  status: true
-  uid: true
+  uid:
+    type: entity_reference_autocomplete
+    weight: 15
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

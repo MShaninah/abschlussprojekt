@@ -1,4 +1,4 @@
-uuid: fd3490ff-642a-4e8f-8acf-7600a0e4922e
+uuid: 0e00ec69-295b-4ee0-8259-84a1a363bb80
 langcode: de
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: Breadcrumbs
+  label: Pfadnavigation
   label_display: '0'
   provider: system
 visibility: {  }

@@ -1,4 +1,4 @@
-uuid: f9ac4e8a-ed01-41db-8c0b-e0c085192278
+uuid: bd9d07f4-9ad8-40f3-95d6-c19abcb83da4
 langcode: de
 status: true
 dependencies:
@@ -10,7 +10,7 @@ id: employee_overview.employee_overview.field_username
 field_name: field_username
 entity_type: employee_overview
 bundle: employee_overview
-label: Username
+label: username
 description: ''
 required: false
 translatable: false
