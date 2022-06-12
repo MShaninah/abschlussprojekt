@@ -39,17 +39,7 @@ class EmployeeOverviewSubscriber implements EventSubscriberInterface {
 
   public function onUserLogin(EmployeeOverviewEvent $event) {
     $currentUserName = $event->account->getAccountName();
-    $command = escapeshellcmd('python3 ./drupal.py');
-    $output = shell_exec($command);
-    $response_array = ['user_name' => $currentUserName];
     \Drupal::state()->set('User', $currentUserName);
-
-    $this->messenger
-      ->addStatus($this->t('<strong>Hey there</strong>: %name.',
-        [
-          '%name' => $currentUserName,
-        ]
-      ));
   }
 
 
